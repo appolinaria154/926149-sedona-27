@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Полина Курицина](https://up.htmlacademy.ru/htmlcss/27/user/926149).
-* Наставник: `Неизвестно`.
+* Наставник: [Руслан Бреев](https://htmlacademy.ru/profile/blckwltz).
 
 ---
 
