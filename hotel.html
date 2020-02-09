@@ -23,16 +23,62 @@
       <h1>Гостиницы</h1>
       <section>
         <h2>Фильтр гостиниц</h2>
-        <!--Здесь будет форма-->
+        <form action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <ul>
+              <li>
+                <label for="pool"></label>
+                <input type="checkbox" id="pool" name="pool" checked>Бассейн
+              </li>
+              <li>
+                <label for="parking"></label>
+                <input type="checkbox" id="parking" name="parking">Парковка
+              </li>
+              <li>
+                <label for="wi-fi"></label>
+                <input type="checkbox" id="wi-fi" name="wi-fi">wi-fi
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья:</legend>
+            <ul>
+              <li>
+                <label for="hotel"></label>
+                <input type="checkbox" id="hotel" name="hotel" checked>Гостиница
+              </li>
+              <li>
+                <label for="motel"></label>
+                <input type="checkbox" id="motel" name="motel" checked>Мотель
+              </li>
+              <li>
+                <label for="apartments"></label>
+                <input type="checkbox" id="apartments" name="apartments" checked>Апартаменты
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Стоимость в сутки (Р):</legend>
+            <label for="min price"></label>
+            <input type="text" id="min price" name="min price" placeholder="от 0">
+            <label for="max price"></label>
+            <input type="text" id="max price" name="max price" placeholder="до 3000">
+            <label for="ranging"></label>
+            <input type="range" id="ranging" name="ranging" min="0" max="3000" value="2500" step="1">
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
       </section>
       <section>
         <h2>Сортировка</h2>
-        <div>
-          Найдено:3
-          <a href="#">По цене</a>
-          <a href="#">По типу</a>
-          <a href="#">По рейтингу</a>
-        </div>
+        <ul>Найдено:3
+          <li><a href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По рейтингу</a></li>
+          <li><a href="#"><img src="img/down button.png" width="11" height="10" alt=""></a></li>
+          <li><a href="#"><img src="img/up button.png" width="11" height="10" alt=""></a></li>
+        </ul>
       </section>
       <section>
         <ul>
@@ -46,10 +92,10 @@
               <a href="#">забронировать</a>
             </div>
             <div>
-              <img src="img/★ .png" width="18" height="17" alt="">
-              <img src="img/★ .png" width="18" height="17" alt="">
-              <img src="img/★ .png" width="18" height="17" alt="">
-              <img src="img/★ .png" width="18" height="17" alt="">
+              <img src="img/star.png" width="18" height="17" alt="">
+              <img src="img/star.png" width="18" height="17" alt="">
+              <img src="img/star.png" width="18" height="17" alt="">
+              <img src="img/star.png" width="18" height="17" alt="">
             </div>
             <div>Рейтинг:8,5</div>
           </li>
@@ -63,9 +109,9 @@
                 <a href="#">забронировать</a>
               </div>
               <div>
-                <img src="img/★ .png" width="18" height="17" alt="">
-                <img src="img/★ .png" width="18" height="17" alt="">
-                <img src="img/★ .png" width="18" height="17" alt="">
+                <img src="img/star.png" width="18" height="17" alt="">
+                <img src="img/star.png" width="18" height="17" alt="">
+                <img src="img/star.png" width="18" height="17" alt="">
               </div>
               <div>Рейтинг:8,9</div>
           </li>
@@ -79,8 +125,8 @@
               <a href="#">забронировать</a>
             </div>
             <div>
-              <img src="img/★ .png" width="18" height="17" alt="">
-              <img src="img/★ .png" width="18" height="17" alt="">
+              <img src="img/star.png" width="18" height="17" alt="">
+              <img src="img/star.png" width="18" height="17" alt="">
             </div>
             <div>Рейтинг:9,2</div>
           </li>
